@@ -1,0 +1,899 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/elijahmendoza/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/netlify/12.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "netlify",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/netlify/12.0.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/omit.js/2.0.2",
+    "wanted": {
+      "dependentId": "/netlify/12.0.0",
+      "name": "omit.js",
+      "rawSpec": "^2.0.2"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/omit.js/2.0.2",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/p-wait-for/4.1.0",
+    "wanted": {
+      "dependentId": "/netlify/12.0.0",
+      "name": "p-wait-for",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/p-wait-for/4.1.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lodash.camelcase/4.3.0",
+    "wanted": {
+      "dependentId": "/netlify/12.0.0",
+      "name": "lodash.camelcase",
+      "rawSpec": "^4.3.0"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lodash.camelcase/4.3.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "12 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/netlify/12.0.0",
+    "size": 7472,
+    "status": "started"
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/netlify/12.0.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "fetched"
+  },
+  "14 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/lodash.camelcase/4.3.0",
+    "size": 6993,
+    "status": "started"
+  },
+  "15 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/p-wait-for/4.1.0",
+    "size": 2346,
+    "status": "started"
+  },
+  "16 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/omit.js/2.0.2",
+    "size": 1988,
+    "status": "started"
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lodash.camelcase/4.3.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "fetched"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/p-wait-for/4.1.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "fetched"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/omit.js/2.0.2",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "fetched"
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/qs/6.11.0",
+    "wanted": {
+      "dependentId": "/netlify/12.0.0",
+      "name": "qs",
+      "rawSpec": "^6.9.6"
+    }
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/qs/6.11.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/node-fetch/3.2.9",
+    "wanted": {
+      "dependentId": "/netlify/12.0.0",
+      "name": "node-fetch",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/node-fetch/3.2.9",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/micro-api-client/3.3.0",
+    "wanted": {
+      "dependentId": "/netlify/12.0.0",
+      "name": "micro-api-client",
+      "rawSpec": "^3.3.0"
+    }
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/micro-api-client/3.3.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "26 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/qs/6.11.0",
+    "size": 51129,
+    "status": "started"
+  },
+  "27 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/micro-api-client/3.3.0",
+    "size": 4080,
+    "status": "started"
+  },
+  "28 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/node-fetch/3.2.9",
+    "size": 31522,
+    "status": "started"
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/qs/6.11.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "fetched"
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/micro-api-client/3.3.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "fetched"
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/node-fetch/3.2.9",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "fetched"
+  },
+  "32 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@netlify/open-api/2.11.0",
+    "wanted": {
+      "dependentId": "/netlify/12.0.0",
+      "name": "@netlify/open-api",
+      "rawSpec": "^2.11.0"
+    }
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@netlify/open-api/2.11.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "34 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/side-channel/1.0.4",
+    "wanted": {
+      "dependentId": "/qs/6.11.0",
+      "name": "side-channel",
+      "rawSpec": "^1.0.4"
+    }
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/side-channel/1.0.4",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "36 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/data-uri-to-buffer/4.0.0",
+    "wanted": {
+      "dependentId": "/node-fetch/3.2.9",
+      "name": "data-uri-to-buffer",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/data-uri-to-buffer/4.0.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "38 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fetch-blob/3.2.0",
+    "wanted": {
+      "dependentId": "/node-fetch/3.2.9",
+      "name": "fetch-blob",
+      "rawSpec": "^3.1.4"
+    }
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fetch-blob/3.2.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "40 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/side-channel/1.0.4",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/data-uri-to-buffer/4.0.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "42 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/p-timeout/5.1.0",
+    "wanted": {
+      "dependentId": "/p-wait-for/4.1.0",
+      "name": "p-timeout",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/p-timeout/5.1.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "44 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/p-timeout/5.1.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "45 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/formdata-polyfill/4.0.10",
+    "wanted": {
+      "dependentId": "/node-fetch/3.2.9",
+      "name": "formdata-polyfill",
+      "rawSpec": "^4.0.10"
+    }
+  },
+  "46 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/formdata-polyfill/4.0.10",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "47 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fetch-blob/3.2.0",
+    "wanted": {
+      "dependentId": "/formdata-polyfill/4.0.10",
+      "name": "fetch-blob",
+      "rawSpec": "^3.1.2"
+    }
+  },
+  "48 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/fetch-blob/3.2.0",
+    "size": 7689,
+    "status": "started"
+  },
+  "49 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/get-intrinsic/1.1.2",
+    "wanted": {
+      "dependentId": "/side-channel/1.0.4",
+      "name": "get-intrinsic",
+      "rawSpec": "^1.0.2"
+    }
+  },
+  "50 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-intrinsic/1.1.2",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "51 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/call-bind/1.0.2",
+    "wanted": {
+      "dependentId": "/side-channel/1.0.4",
+      "name": "call-bind",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "52 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/call-bind/1.0.2",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/formdata-polyfill/4.0.10",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "54 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/call-bind/1.0.2",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "55 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fetch-blob/3.2.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "fetched"
+  },
+  "56 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-intrinsic/1.1.2",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "57 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/object-inspect/1.12.2",
+    "wanted": {
+      "dependentId": "/side-channel/1.0.4",
+      "name": "object-inspect",
+      "rawSpec": "^1.9.0"
+    }
+  },
+  "58 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/object-inspect/1.12.2",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "59 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/get-intrinsic/1.1.2",
+    "wanted": {
+      "dependentId": "/call-bind/1.0.2",
+      "name": "get-intrinsic",
+      "rawSpec": "^1.0.2"
+    }
+  },
+  "60 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/node-domexception/1.0.0",
+    "wanted": {
+      "dependentId": "/fetch-blob/3.2.0",
+      "name": "node-domexception",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "61 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/node-domexception/1.0.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "62 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/object-inspect/1.12.2",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "63 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/web-streams-polyfill/3.2.1",
+    "wanted": {
+      "dependentId": "/fetch-blob/3.2.0",
+      "name": "web-streams-polyfill",
+      "rawSpec": "^3.0.3"
+    }
+  },
+  "64 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/web-streams-polyfill/3.2.1",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "65 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/node-domexception/1.0.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "66 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/web-streams-polyfill/3.2.1",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "67 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/function-bind/1.1.1",
+    "wanted": {
+      "dependentId": "/get-intrinsic/1.1.2",
+      "name": "function-bind",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "68 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/function-bind/1.1.1",
+    "wanted": {
+      "dependentId": "/call-bind/1.0.2",
+      "name": "function-bind",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "69 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/function-bind/1.1.1",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "70 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/function-bind/1.1.1",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "71 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/has/1.0.3",
+    "wanted": {
+      "dependentId": "/get-intrinsic/1.1.2",
+      "name": "has",
+      "rawSpec": "^1.0.3"
+    }
+  },
+  "72 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has/1.0.3",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "73 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/function-bind/1.1.1",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "74 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/has-symbols/1.0.3",
+    "wanted": {
+      "dependentId": "/get-intrinsic/1.1.2",
+      "name": "has-symbols",
+      "rawSpec": "^1.0.3"
+    }
+  },
+  "75 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-symbols/1.0.3",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "resolved"
+  },
+  "76 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/function-bind/1.1.1",
+    "wanted": {
+      "dependentId": "/has/1.0.3",
+      "name": "function-bind",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "77 debug pnpm:package-manifest": {
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "updated": {
+      "dependencies": {
+        "netlify": "^12.0.0"
+      }
+    }
+  },
+  "78 debug pnpm:package-manifest": {
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "updated": {
+      "dependencies": {
+        "netlify": "^12.0.0"
+      }
+    }
+  },
+  "79 debug pnpm:stage": {
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "stage": "resolution_done"
+  },
+  "80 debug pnpm:stats": {
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "removed": 0
+  },
+  "81 debug pnpm:stage": {
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "stage": "importing_started"
+  },
+  "82 debug pnpm:stats": {
+    "added": 21,
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555"
+  },
+  "83 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has/1.0.3",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "84 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/@netlify+open-api@2.11.0/node_modules/@netlify/open-api",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/netlify@12.0.0/node_modules/@netlify/open-api"
+  },
+  "85 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/lodash.camelcase@4.3.0/node_modules/lodash.camelcase",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/netlify@12.0.0/node_modules/lodash.camelcase"
+  },
+  "86 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/micro-api-client@3.3.0/node_modules/micro-api-client",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/netlify@12.0.0/node_modules/micro-api-client"
+  },
+  "87 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node-fetch@3.2.9/node_modules/node-fetch",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/netlify@12.0.0/node_modules/node-fetch"
+  },
+  "88 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/omit.js@2.0.2/node_modules/omit.js",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/netlify@12.0.0/node_modules/omit.js"
+  },
+  "89 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/p-wait-for@4.1.0/node_modules/p-wait-for",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/netlify@12.0.0/node_modules/p-wait-for"
+  },
+  "90 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/qs@6.11.0/node_modules/qs",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/netlify@12.0.0/node_modules/qs"
+  },
+  "91 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/data-uri-to-buffer@4.0.0/node_modules/data-uri-to-buffer",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node-fetch@3.2.9/node_modules/data-uri-to-buffer"
+  },
+  "92 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/fetch-blob",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node-fetch@3.2.9/node_modules/fetch-blob"
+  },
+  "93 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/formdata-polyfill@4.0.10/node_modules/formdata-polyfill",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node-fetch@3.2.9/node_modules/formdata-polyfill"
+  },
+  "94 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-domexception",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/node-domexception"
+  },
+  "95 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/web-streams-polyfill@3.2.1/node_modules/web-streams-polyfill",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/web-streams-polyfill"
+  },
+  "96 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/fetch-blob",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/formdata-polyfill@4.0.10/node_modules/fetch-blob"
+  },
+  "97 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/p-timeout@5.1.0/node_modules/p-timeout",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/p-wait-for@4.1.0/node_modules/p-timeout"
+  },
+  "98 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/side-channel@1.0.4/node_modules/side-channel",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/qs@6.11.0/node_modules/side-channel"
+  },
+  "99 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/call-bind@1.0.2/node_modules/call-bind",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/side-channel@1.0.4/node_modules/call-bind"
+  },
+  "100 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/get-intrinsic@1.1.2/node_modules/get-intrinsic",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/side-channel@1.0.4/node_modules/get-intrinsic"
+  },
+  "101 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/object-inspect@1.12.2/node_modules/object-inspect",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/side-channel@1.0.4/node_modules/object-inspect"
+  },
+  "102 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/function-bind@1.1.1/node_modules/function-bind",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/call-bind@1.0.2/node_modules/function-bind"
+  },
+  "103 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/get-intrinsic@1.1.2/node_modules/get-intrinsic",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/call-bind@1.0.2/node_modules/get-intrinsic"
+  },
+  "104 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/function-bind@1.1.1/node_modules/function-bind",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/get-intrinsic@1.1.2/node_modules/function-bind"
+  },
+  "105 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/has@1.0.3/node_modules/has",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/get-intrinsic@1.1.2/node_modules/has"
+  },
+  "106 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/has-symbols@1.0.3/node_modules/has-symbols",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/get-intrinsic@1.1.2/node_modules/has-symbols"
+  },
+  "107 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/function-bind@1.1.1/node_modules/function-bind",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/has@1.0.3/node_modules/function-bind"
+  },
+  "108 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-symbols/1.0.3",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "found_in_store"
+  },
+  "109 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "110 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/lodash.camelcase@4.3.0/node_modules/lodash.camelcase"
+  },
+  "111 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "112 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/fetch-blob"
+  },
+  "113 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "114 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/p-wait-for@4.1.0/node_modules/p-wait-for"
+  },
+  "115 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "116 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/formdata-polyfill@4.0.10/node_modules/formdata-polyfill"
+  },
+  "117 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "118 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/p-timeout@5.1.0/node_modules/p-timeout"
+  },
+  "119 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "120 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/micro-api-client@3.3.0/node_modules/micro-api-client"
+  },
+  "121 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "122 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/omit.js@2.0.2/node_modules/omit.js"
+  },
+  "123 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "124 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/qs@6.11.0/node_modules/qs"
+  },
+  "125 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/get-intrinsic@1.1.2/node_modules/get-intrinsic"
+  },
+  "126 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/has@1.0.3/node_modules/has"
+  },
+  "127 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "128 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/call-bind@1.0.2/node_modules/call-bind"
+  },
+  "129 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/object-inspect@1.12.2/node_modules/object-inspect"
+  },
+  "130 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "131 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-domexception"
+  },
+  "132 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "133 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/side-channel@1.0.4/node_modules/side-channel"
+  },
+  "134 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/has-symbols@1.0.3/node_modules/has-symbols"
+  },
+  "135 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "136 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/function-bind@1.1.1/node_modules/function-bind"
+  },
+  "137 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "138 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node-fetch@3.2.9/node_modules/node-fetch"
+  },
+  "139 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "140 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/netlify@12.0.0/node_modules/netlify"
+  },
+  "141 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "142 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/data-uri-to-buffer@4.0.0/node_modules/data-uri-to-buffer"
+  },
+  "143 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "144 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/web-streams-polyfill@3.2.1/node_modules/web-streams-polyfill"
+  },
+  "145 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@netlify/open-api/2.11.0",
+    "size": 24875,
+    "status": "started"
+  },
+  "146 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@netlify/open-api/2.11.0",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "fetched"
+  },
+  "147 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "status": "imported",
+    "to": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/@netlify+open-api@2.11.0/node_modules/@netlify/open-api"
+  },
+  "148 debug pnpm:stage": {
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555",
+    "stage": "importing_done"
+  },
+  "149 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/netlify@12.0.0/node_modules/netlify",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/netlify"
+  },
+  "150 debug pnpm:root": {
+    "added": {
+      "dependencyType": "prod",
+      "id": "registry.npmjs.org/netlify/12.0.0",
+      "name": "netlify",
+      "realName": "netlify",
+      "version": "12.0.0"
+    },
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555"
+  },
+  "151 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/@netlify+open-api@2.11.0/node_modules/@netlify/open-api",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/@netlify/open-api"
+  },
+  "152 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/lodash.camelcase@4.3.0/node_modules/lodash.camelcase",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/lodash.camelcase"
+  },
+  "153 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/micro-api-client@3.3.0/node_modules/micro-api-client",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/micro-api-client"
+  },
+  "154 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node-fetch@3.2.9/node_modules/node-fetch",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/node-fetch"
+  },
+  "155 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/omit.js@2.0.2/node_modules/omit.js",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/omit.js"
+  },
+  "156 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/p-wait-for@4.1.0/node_modules/p-wait-for",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/p-wait-for"
+  },
+  "157 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/qs@6.11.0/node_modules/qs",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/qs"
+  },
+  "158 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/data-uri-to-buffer@4.0.0/node_modules/data-uri-to-buffer",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/data-uri-to-buffer"
+  },
+  "159 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/fetch-blob",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/fetch-blob"
+  },
+  "160 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/formdata-polyfill@4.0.10/node_modules/formdata-polyfill",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/formdata-polyfill"
+  },
+  "161 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/p-timeout@5.1.0/node_modules/p-timeout",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/p-timeout"
+  },
+  "162 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/side-channel@1.0.4/node_modules/side-channel",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/side-channel"
+  },
+  "163 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-domexception",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/node-domexception"
+  },
+  "164 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/web-streams-polyfill@3.2.1/node_modules/web-streams-polyfill",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/web-streams-polyfill"
+  },
+  "165 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/call-bind@1.0.2/node_modules/call-bind",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/call-bind"
+  },
+  "166 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/get-intrinsic@1.1.2/node_modules/get-intrinsic",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/get-intrinsic"
+  },
+  "167 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/object-inspect@1.12.2/node_modules/object-inspect",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/object-inspect"
+  },
+  "168 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/function-bind@1.1.1/node_modules/function-bind",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/function-bind"
+  },
+  "169 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/has@1.0.3/node_modules/has",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/has"
+  },
+  "170 debug pnpm:link": {
+    "target": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/has-symbols@1.0.3/node_modules/has-symbols",
+    "link": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555/node_modules/.pnpm/node_modules/has-symbols"
+  },
+  "171 debug pnpm:summary": {
+    "prefix": "/Users/elijahmendoza/Library/pnpm/store/v3/tmp/dlx-52555"
+  },
+  "172 error pnpm": {
+    "code": "ERR_PNPM_DLX_NO_BIN",
+    "err": {
+      "name": "pnpm",
+      "message": "No binaries found in netlify",
+      "code": "ERR_PNPM_DLX_NO_BIN",
+      "stack": "pnpm: No binaries found in netlify\n    at getBinName (/Users/elijahmendoza/Library/pnpm/global/5/.pnpm/pnpm@7.4.1/node_modules/pnpm/dist/pnpx.cjs:183495:15)\n    at async Object.handler [as dlx] (/Users/elijahmendoza/Library/pnpm/global/5/.pnpm/pnpm@7.4.1/node_modules/pnpm/dist/pnpx.cjs:183479:48)\n    at async /Users/elijahmendoza/Library/pnpm/global/5/.pnpm/pnpm@7.4.1/node_modules/pnpm/dist/pnpx.cjs:192579:21\n    at async run (/Users/elijahmendoza/Library/pnpm/global/5/.pnpm/pnpm@7.4.1/node_modules/pnpm/dist/pnpx.cjs:192553:34)\n    at async /Users/elijahmendoza/Library/pnpm/global/5/.pnpm/pnpm@7.4.1/node_modules/pnpm/dist/pnpx.cjs:192625:5"
+    }
+  }
+}
