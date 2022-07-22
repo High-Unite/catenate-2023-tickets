@@ -1,16 +1,17 @@
-const QRCode = require('qrcode')
+const QRCode = require("qrcode-svg");
 
 module.exports = async function renderTemplate({ id, name }) {
-    const qrDataUrl = await QRCode.toDataURL(
-        JSON.stringify({ id, name })
-      )
+    // const qrDataUrl = await QRCode.toDataURL(
+    //     JSON.stringify({ id, name })
+    //   )
+    const svg = new QRCode(JSON.stringify({ id, name })).svg("g");
   return `
 <!DOCTYPE html>
 <html lang="en">
     <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <title>Catenate Ticket Template</title>
 
     <style>
@@ -81,6 +82,11 @@ module.exports = async function renderTemplate({ id, name }) {
         .qr-code__image {
         border-radius: 1em;
         overflow: hidden;
+        width: 100%; 
+        height: auto;
+        }
+        .qr-code {
+            width: 180px;
         }
     </style>
     </head>
@@ -102,10 +108,9 @@ module.exports = async function renderTemplate({ id, name }) {
             }
         </div>
         <div class="qr-code">
-            <img
-            class="qr-code__image"
-            src="${qrDataUrl}"
-            />
+            <svg class="qr-code__image" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                ${svg}
+            </svg>
         </div>
         </main>
         <footer class="footer">
