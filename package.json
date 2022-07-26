@@ -20,8 +20,8 @@
   "homepage": "https://github.com/11ty/api-screenshot#readme",
   "dependencies": {
     "@netlify/functions": "^1.0.0",
-    "chrome-aws-lambda": "^10.1.0",
-    "puppeteer-core": "^10.1.0",
+    "@sparticuz/chrome-aws-lambda": "^14.4.1",
+    "puppeteer-core": "14.4.1",
     "qrcode-svg": "^1.1.0"
   }
 }

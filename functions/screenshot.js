@@ -55,21 +55,21 @@ async function handler(event, context) {
   viewport = [800, 300];
 
   // Sanitize
-  id &&= decodeURIComponent(id)
+  id = id && decodeURIComponent(id)
     .replace(/[^\w-]/g, "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
-  name &&= decodeURIComponent(name)
+  name = name && decodeURIComponent(name)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 
-    
+
   try {
     if (!name) throw new Error("A name, at least, is required")
     const html = await renderTemplate({ id, name })
