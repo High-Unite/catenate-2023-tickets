@@ -1,6 +1,6 @@
 const { builder } = require("@netlify/functions");
-const renderTemplate = require("./_lib/renderTemplate");
-const screenshot = require("./_lib/screenshot");
+const generateSvg = require("./_lib/generateSvg");
+const render = require("./_lib/render");
 
 function isFullUrl(url) {
   try {
@@ -55,31 +55,23 @@ async function handler(event, context) {
   viewport = [800, 300];
 
   // Sanitize
-  id = id && decodeURIComponent(id)
-    .replace(/[^\w-]/g, "")
+  function sanitizeParam(str) {
+    return str.replace(/[^\w- .ñ]/g, "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-  name = name && decodeURIComponent(name)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-
+    .replace(/'/g, "&#039;")
+  }
+  function nullSafe(fn, x) {
+    return x && fn(x)
+  }
+  [id, name] = [id, name].map(x => nullSafe(compose(sanitizeParam, decodeURIComponent), x));
 
   try {
     if (!name) throw new Error("A name, at least, is required")
-    const html = await renderTemplate({ id, name })
-    let output = await screenshot(html, {
-      format,
-      viewport,
-      dpr,
-      wait,
-      timeout,
-    });
+    const output = await generateSvg({ id, name }).then(render)
+
 
     // output to Function logs
     console.log({ id }, name);
@@ -112,3 +104,26 @@ async function handler(event, context) {
 }
 
 exports.handler = builder(handler);
+
+function compose(...fns) {
+  return function composed(result){
+      return [...fns].reverse().reduce( function reducer(result,fn){
+          return fn( result );
+      }, result );
+  };
+}
+
+function curry(fn,arity = fn.length) {
+  return (function nextCurried(prevArgs){
+      return function curried(nextArg){
+          var args = [ ...prevArgs, nextArg ];
+
+          if (args.length >= arity) {
+              return fn( ...args );
+          }
+          else {
+              return nextCurried( args );
+          }
+      };
+  })( [] );
+}
