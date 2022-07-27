@@ -107,7 +107,7 @@ module.exports = async function render(
   // const pngBuffer = await sharp(svgBuffer).png().toBuffer()
   const resvg = new Resvg(svg, {
     font: {
-      fontFiles: [path.resolve(__dirname, '../_fonts/Inter-Regular.ttf'), path.resolve(__dirname, '../_fonts/Inter-Bold.ttf')], // Load custom fonts.
+      fontFiles: ['../_fonts/Inter-Regular.ttf', '../_fonts/Inter-Bold.ttf'], // Load custom fonts.
       // fontFiles: ['../_fonts/Inter-Bold.ttf'], // Load custom fonts.
       loadSystemFonts: false, // It will be faster to disable loading system fonts.
       defaultFontFamily: 'Inter',
