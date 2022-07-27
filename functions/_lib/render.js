@@ -2,6 +2,7 @@ const { Resvg } = require("@resvg/resvg-js");
 const {
   promises: { writeFile },
 } = require("fs");
+const path = require("path");
 
 module.exports = async function render(
   svg
@@ -106,7 +107,7 @@ module.exports = async function render(
   // const pngBuffer = await sharp(svgBuffer).png().toBuffer()
   const resvg = new Resvg(svg, {
     font: {
-      fontFiles: [__dirname + '/../_fonts/Inter-Regular.ttf', '/Users/elijahmendoza/Downloads/api-screenshot/functions/_fonts/Inter-Bold.ttf'], // Load custom fonts.
+      fontFiles: [path.resolve(__dirname, '../_fonts/Inter-Regular.ttf'), path.resolve(__dirname, '../_fonts/Inter-Bold.ttf')], // Load custom fonts.
       // fontFiles: ['../_fonts/Inter-Bold.ttf'], // Load custom fonts.
       loadSystemFonts: false, // It will be faster to disable loading system fonts.
       defaultFontFamily: 'Inter',
