@@ -1,6 +1,6 @@
 [functions]
-directory = "functions"
-included_files = ["_fonts/**"]
+directory = "functions/"
+included_files = ["functions/_fonts/**"]
 
 [[redirects]]
 from = "/*"

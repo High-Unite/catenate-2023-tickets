@@ -102,6 +102,10 @@ module.exports = async function render(svg) {
   // await sharp(svgBuffer).png().toFile("rawr.png")
   // const pngBuffer = await sharp(svgBuffer).png().toBuffer()
   console.log("process.env.LAMBDA_TASK_ROOT", process.env.LAMBDA_TASK_ROOT);
+  fs.readdir(__dirname, function (err, items) {
+    console.log("# content of __dirname");
+    console.log(items);
+  });
   fs.readdir(process.env.LAMBDA_TASK_ROOT + "", function (err, items) {
     console.log("# content of process.env.LAMBDA_TASK_ROOT");
     console.log(items);
@@ -116,7 +120,7 @@ module.exports = async function render(svg) {
   const resvg = new Resvg(svg, {
     font: {
       fontFiles: ["Inter-Regular.ttf", "Inter-Bold.ttf"].map((x) =>
-        path.resolve(process.env.LAMBDA_TASK_ROOT, "src/_fonts", x)
+        path.resolve(__dirname, "../_fonts", x)
       ), // Load custom fonts.
       // fontFiles: ['../_fonts/Inter-Bold.ttf'], // Load custom fonts.
       loadSystemFonts: false, // It will be faster to disable loading system fonts.
