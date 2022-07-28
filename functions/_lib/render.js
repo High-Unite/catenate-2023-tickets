@@ -1,8 +1,6 @@
 const { Resvg } = require("@resvg/resvg-js");
-const {
-  promises: { writeFile },
-} = require("fs");
 const path = require("path");
+const fs = require('fs');
 
 module.exports = async function render(
   svg
@@ -105,9 +103,22 @@ module.exports = async function render(
 
   // await sharp(svgBuffer).png().toFile("rawr.png")
   // const pngBuffer = await sharp(svgBuffer).png().toBuffer()
+  console.log("process.env.LAMBDA_TASK_ROOT", process.env.LAMBDA_TASK_ROOT)
+  fs.readdir(process.env.LAMBDA_TASK_ROOT + "", function(err, items) {
+    console.log("# content of process.env.LAMBDA_TASK_ROOT")
+    console.log(items);
+  })
+  fs.readdir(process.env.LAMBDA_TASK_ROOT + "/src", function(err, items) {
+    console.log("# content of process.env.LAMBDA_TASK_ROOT/src")
+    console.log(items);
+  })
+  fs.readdir(process.env.LAMBDA_TASK_ROOT + "/src/functions", function(err, items) {
+    console.log("# content of process.env.LAMBDA_TASK_ROOT/src/functions")
+    console.log(items);
+  })
   const resvg = new Resvg(svg, {
     font: {
-      fontFiles: ['../_fonts/Inter-Regular.ttf', '../_fonts/Inter-Bold.ttf'], // Load custom fonts.
+      fontFiles: ['Inter-Regular.ttf', 'Inter-Bold.ttf'].map(x => path.resolve(process.env.LAMBDA_TASK_ROOT, "src/_fonts", x)), // Load custom fonts.
       // fontFiles: ['../_fonts/Inter-Bold.ttf'], // Load custom fonts.
       loadSystemFonts: false, // It will be faster to disable loading system fonts.
       defaultFontFamily: 'Inter',
