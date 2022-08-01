@@ -5,9 +5,9 @@ module.exports = async function generateSvg({ id, name }) {
     //     JSON.stringify({ id, name })
     //   )
     const svg = new QRCode(
-        `https://catenate-2022-checkin.glitch.me/?name=${encodeUriComponent(
+        `https://catenate-2022-checkin.glitch.me/?name=${encodeURIComponent(
             name
-        )}&id=${encodeUriComponent(id)}`
+        )}&id=${encodeURIComponent(id)}`
     ).svg("g");
     const output = `
     <svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
