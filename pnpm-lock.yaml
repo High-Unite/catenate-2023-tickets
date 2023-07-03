@@ -11,6 +11,9 @@ dependencies:
   '@resvg/resvg-js':
     specifier: ^2.1.0
     version: 2.1.0
+  '@resvg/resvg-js-linux-x64-gnu':
+    specifier: ^2.4.1
+    version: 2.4.1
   is-promise:
     specifier: ^4.0.0
     version: 4.0.0
@@ -98,6 +101,13 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@resvg/resvg-js-linux-x64-gnu@2.4.1:
+    resolution: {integrity: sha512-60KnrscLj6VGhkYOJEmmzPlqqfcw1keDh6U+vMcNDjPhV3B5vRSkpP/D/a8sfokyeh4VEacPSYkWGezvzS2/mg==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    dev: false
 
   /@resvg/resvg-js-linux-x64-musl@2.1.0:
     resolution: {integrity: sha512-mkwGe4I9CmQ1GPSnFa22PHwKbE+TZnRk/ViCvO89UOwypW0I+X+KlQVzVbZn9ypvcrbvzotOvl3OkVRq5MgsBA==}
