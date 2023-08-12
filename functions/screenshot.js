@@ -17,6 +17,7 @@ async function handler(event, context) {
   // e.g. /https%3A%2F%2Fwww.11ty.dev%2F/small/1:1/smaller/
   let pathSplit = event.path.split("/").filter((entry) => !!entry);
   let [name, id, cachebuster] = pathSplit;
+  let date = event.queryStringParameters.date;
   let format = "jpeg"; // hardcoded for now, but png and webp are supported!
   let viewport = [];
 
@@ -66,11 +67,11 @@ async function handler(event, context) {
   function nullSafe(fn, x) {
     return x && fn(x)
   }
-  [id, name] = [id, name].map(x => nullSafe(compose(sanitizeParam, decodeURIComponent), x));
+  [id, name, date] = [id, name, date].map(x => nullSafe(compose(sanitizeParam, decodeURIComponent), x));
 
   try {
     if (!name) throw new Error("A name, at least, is required")
-    const output = await generateSvg({ id, name }).then(render)
+    const output = await generateSvg({ id, name, date }).then(render)
 
 
     // output to Function logs
