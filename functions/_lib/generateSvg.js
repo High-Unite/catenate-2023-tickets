@@ -1,6 +1,6 @@
 const QRCode = require("qrcode-svg");
 
-module.exports = async function generateSvg({ id, name }) {
+module.exports = async function generateSvg({ id, name, date }) {
     // const qrDataUrl = await QRCode.toDataURL(
     //     JSON.stringify({ id, name })
     //   )
@@ -15,7 +15,7 @@ module.exports = async function generateSvg({ id, name }) {
     <use xlink:href="#a" width="599" height="80" transform="matrix(1.46 0 0 1.46 -138 1)"/>
     <path style="fill:#53ac99" d="M0 116h600v624H0z" transform="matrix(1 0 0 .98071 0 4)"/>
     <text x="300" y="800" style="font-family:'Inter Regular', 'Inter-Regular','Inter',sans-serif;font-size:43.85px" transform="matrix(.55873 0 0 .55873 -140 326)">Admit one</text>
-    <text x="167" y="800" style="font-family:'Inter Regular', 'Inter-Regular','Inter',sans-serif;font-size:43.85px" transform="matrix(.55873 0 0 .55873 287 326)">July 10, 2023</text>
+    <text x="167" y="800" style="font-family:'Inter Regular', 'Inter-Regular','Inter',sans-serif;font-size:43.85px" transform="matrix(.55873 0 0 .55873 287 326)">${ date || "August 14, 2023" }</text>
     <g transform="matrix(.85413 0 0 .85413 44 44)">
       <path d="M530 200c0-22-18-39-40-39H110c-22 0-40 17-40 39v381c0 22 18 40 40 40h380c22 0 40-18 40-40V200Z" style="fill:#53ac99"/>
       <clipPath id="b">
